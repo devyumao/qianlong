@@ -1,0 +1,44 @@
+{
+  "name": "qianlong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "live2d.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "build": "NODE_ENV=production webpack && cp -r ./dist /Applications/MAMP/htdocs",
+    "deploy": "scp dist/index.html ubuntu@182.254.145.233:/home/ubuntu/webserver/public/qianlong"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "current-device": "^0.7.8",
+    "live2d-widget": "^3.0.5",
+    "lodash.clamp": "^4.0.3",
+    "lodash.debounce": "^4.0.8",
+    "lodash.random": "^3.2.0",
+    "lodash.sample": "^4.2.1",
+    "lodash.throttle": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta.4",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "postcss": "^7.0.2",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "style-loader": "^0.22.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

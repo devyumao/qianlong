@@ -1,0 +1,73 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "qianlong26",
+	"model": "qianlong26.moc",
+	"textures": [
+		"qianlong26.1024/texture_00.png"
+	],
+	"hit_areas": [
+		{
+			"name": "head",
+			"id": "D_REF_HEAD"
+		}
+	],
+	"expressions": [
+		{
+			"name": "f01.exp.json",
+			"file": "expressions/f01.exp.json"
+		},
+		{
+			"name": "f03.exp.json",
+			"file": "expressions/f03.exp.json"
+		},
+		{
+			"name": "f04.exp.json",
+			"file": "expressions/f04.exp.json"
+		},
+		{
+			"name": "f05.exp.json",
+			"file": "expressions/f05.exp.json"
+		},
+		{
+			"name": "f06.exp.json",
+			"file": "expressions/f06.exp.json"
+		},
+		{
+			"name": "f07.exp.json",
+			"file": "expressions/f07.exp.json"
+		}
+	],
+	"motions": {
+		"idle": [
+			{
+				"file": "motions/m00.mtn"
+			}
+		],
+		"tap_body": [
+			{
+				"file": "motions/m01.mtn"
+			},
+			{
+				"file": "motions/m02.mtn"
+			},
+			{
+				"file": "motions/m03.mtn"
+			},
+			{
+				"file": "motions/m04.mtn"
+			},
+			{
+				"file": "motions/m05.mtn"
+			},
+			{
+				"file": "motions/m06.mtn"
+			},
+			{
+				"file": "motions/m07.mtn"
+			},
+			{
+				"file": "motions/m08.mtn"
+			}
+		]
+	}
+}

@@ -1,0 +1,1 @@
+cp -r ./dist /Applications/MAMP/htdocs
