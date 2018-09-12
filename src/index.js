@@ -1,4 +1,4 @@
-import { L2Dwidget } from './live2d-widget'
+import { L2Dwidget } from 'live2d-widget/src'
 
 import './index.less'
 
@@ -48,7 +48,7 @@ function delay(timeout) {
 }
 
 function handleModelLoad() {
-    delay(1000)
+    delay(2500)
         .then(() => {
             loadingEl.className = 'loading out'
             return delay(1500)
