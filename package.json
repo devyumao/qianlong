@@ -2,22 +2,15 @@
   "name": "qianlong",
   "version": "1.0.0",
   "description": "",
-  "main": "live2d.js",
+  "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",
-    "build": "NODE_ENV=production webpack && cp -r ./dist /Applications/MAMP/htdocs",
-    "deploy": "scp dist/index.html ubuntu@182.254.145.233:/home/ubuntu/webserver/public/qianlong"
+    "build": "NODE_ENV=production webpack"
   },
-  "author": "",
+  "author": "devyumao",
   "license": "ISC",
   "dependencies": {
-    "current-device": "^0.7.8",
-    "live2d-widget": "^3.0.5",
-    "lodash.clamp": "^4.0.3",
-    "lodash.debounce": "^4.0.8",
-    "lodash.random": "^3.2.0",
-    "lodash.sample": "^4.2.1",
-    "lodash.throttle": "^4.1.1"
+    "live2d-widget": "devyumao/live2d-widget.js#master"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-rc.1",
