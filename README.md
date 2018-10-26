@@ -1,6 +1,6 @@
 # 乾隆 Qianlong
 
-![qianlong gif](http://pey8tippq.bkt.clouddn.com/qianlong1.gif)
+![qianlong gif](https://webserver-1256209664.cos.ap-shanghai.myqcloud.com/qianlong/qianlong-zhihu.gif)
 
 一个可以撩的乾隆。
 
@@ -9,3 +9,5 @@
 移动端品尝风味更佳。
 
 [Demo](https://umeecorn.com/qianlong/)
+
+[Tutorial](https://zhuanlan.zhihu.com/p/46848715)
